@@ -1,0 +1,9 @@
+server:
+  port: 8888
+
+security:
+  oauth2:
+    client:
+      client-id: admin
+      client-secret: admin
+      registered-redirect-uri: http://localhost:8888
